@@ -1,0 +1,6 @@
+on:
+  push:
+  pull_request:
+jobs:
+  zizmor:
+    uses: grafana/shared-workflows/.github/workflows/reusable-zizmor.yml@8fa210559ab2cc62e7b12d3bb9cba19dbc862c11
