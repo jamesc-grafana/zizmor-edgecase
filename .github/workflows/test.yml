@@ -3,4 +3,10 @@ on:
   pull_request:
 jobs:
   zizmor:
+    permissions:
+      actions: read
+      contents: read
+      id-token: write
+      pull-requests: write
+      security-events: write
     uses: grafana/shared-workflows/.github/workflows/reusable-zizmor.yml@5a413efebe3688c4761412b1c211af0e03c0e892
